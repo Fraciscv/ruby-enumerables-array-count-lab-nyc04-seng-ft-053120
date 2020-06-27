@@ -1,7 +1,7 @@
 
 
 def count_strings(array)
-  array.map do |element| 
+  array.each do |element| 
     element.class == String
   end
 end
